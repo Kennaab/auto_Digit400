@@ -1,3 +1,10 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 element test { xsd:double }
+
+
+#Things we could markup --
+            #Year car was invested
+            #Engine type [Ex.Water-cooled, 4 cylinders, SV]
+            #Engine Max. Power 
+            #Price
