@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <name>Gorham-style three-wheeled vehicle</name>
+    <designer who="Goreham">William R. Goreham</designer>
+    <!--ebb: You could collect information on the different designers in another file called a personongraphy, to organize information distinct designers. Who were they?
+    The @who attribute here can help you find all the other records of cars designed by each person. -->
+    <built when="1920"/>
+    <size>compact</size>
+    <seating>3</seating>
+    <enginePower quant="7" unit="hp"/>
+    <transmission quant="6" unit="gears"/>
+    <curbWeight quant="350" unit="kg"/>
+    <topSpeed quant="48" unit="km/hr"/>
+    <image target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/1317105105269083622.jpg"/>
+    <source target="https://www.nissan-global.com/EN/HERITAGE/gorham_style_three.html"/>
+</xml>
