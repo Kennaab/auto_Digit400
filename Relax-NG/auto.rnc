@@ -1,0 +1,15 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = html
+html = element html {}
+
+
+
+
+#Things we could markup --
+            #Year car was invested <car year="---">
+            #Engine type [Ex.Water-cooled, 4 cylinders, SV] <engine type="--">
+            #Engine Max. Power <power engine="--">
+            #Price <price money="--">
+            #How many cars were sold <sold>
+            #heading, p, body
