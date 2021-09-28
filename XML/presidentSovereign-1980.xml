@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <entry type="car">
+        <!--ebb: I tried a different car from 1980, and noticed some other kinds of data available. 
+            Top speed isn't always listed for every model, but seems to be listed for the older ones. 
+            I'm just trying out some different ways to code the information they're providing. 
+            You can reach into this code later to compare makes and models based on something of interest to you. 
+        -->
+        <name>President Sovereign</name>
+        <built when="1980"/>
+        <size>sedan</size>
+        <dimensions length="5280" width="1830" height="1480" unit="mm"/>
+        <seating>5</seating>
+        <enginePower quant="147" unit="kW"/>
+        <engineRPM>4800</engineRPM>
+        <transmission quant="6" unit="gears"/>
+        <curbWeight quant="1875" unit="kg"/>
+        <wheelbase quant="2850" unit="mm"/>
+        <suspension type="front">double wishbone</suspension>
+        <suspension type="rear">parallel semi-elliptic leaf</suspension>
+        <image
+            target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/1317105105269083622.jpg"/>
+        <source target="https://www.nissan-global.com/EN/HERITAGE/gorham_style_three.html"/>
+    </entry>
+</xml>
+<!--ebb: You can make a separate XML file for each car you're researching, but you could keep the same kinds of data about each car.
+You can write a Relax NG schema that identifies the elements and attributes and kinds of values you will use for each entry. 
+Some of the numbers will be integers or decimals.
+Units of measure for power, transmission, speed will change as you get into later cars! 
+
+If you like what you're seeing here, try writing a Relax NG schema for it. 
+You'll be able to write XPath and XQuery over code like this to pull out related kinds of data, make charts and graphs to compare models and display in HTML. 
+-->
