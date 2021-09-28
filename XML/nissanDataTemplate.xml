@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xml>
-    <name>Gorham-style three-wheeled vehicle</name>
-    <designer who="Goreham">William R. Goreham</designer>
-    <!--ebb: You could collect information on the different designers in another file called a personongraphy, to organize information distinct designers. Who were they?
-    The @who attribute here can help you find all the other records of cars designed by each person. -->
-    <built when="1920"/>
-    <size>compact</size>
-    <seating>3</seating>
-    <enginePower quant="7" unit="hp"/>
-    <transmission quant="6" unit="gears"/>
-    <curbWeight quant="350" unit="kg"/>
-    <topSpeed quant="48" unit="km/hr"/>
-    <image target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/1317105105269083622.jpg"/>
-    <source target="https://www.nissan-global.com/EN/HERITAGE/gorham_style_three.html"/>
+    <entry type="car">
+        <!--ebb: Would you want entries about trucks? buses? If it's all cars, you don't need an attribute. 
+        What kinds of information do you want to keep track of about particular cars? 
+        This was the very first entry in the Nissan collection, and isn't really a Nissan.
+        -->
+        <name>Gorham-style three-wheeled vehicle</name>
+        <built when="1920"/>
+        <size>compact</size>
+        <seating>3</seating>
+        <enginePower quant="7" unit="hp"/>
+        <transmission quant="6" unit="gears"/>
+        <curbWeight quant="350" unit="kg"/>
+        <topSpeed quant="48" unit="km/hr"/>
+        <image
+            target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/1317105105269083622.jpg"/>
+        <source target="https://www.nissan-global.com/EN/HERITAGE/gorham_style_three.html"/>
+    </entry>
 </xml>
+<!--ebb: You can make a separate XML file for each car you're researching, but you could keep the same kinds of data about each car.
+You can write a Relax NG schema that identifies the elements and attributes and kinds of values you will use for each entry. 
+Some of the numbers will be integers or decimals.
+Units of measure for power, transmission, speed will change as you get into later cars! 
+-->
