@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <entry type="car">
+        <name>Tama Electric Car</name>
+        <built when="1947"/>
+        <size>Sedan</size>
+        <dimensions length="3035" width="1230" height="1630" unit="mm"/>
+        <seating>4</seating>
+        <engineRPM>?</engineRPM>
+        <transmission quant="2" unit="batteries"/>
+        <curbWeight quant="1100" unit="kg"/>
+        <wheelbase quant="2000" unit="mm"/>
+        <suspension type="front">?</suspension>
+        <suspension type="rear">?</suspension>
+        <image
+            target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/1317189824233050906.jpg"/>
+        <source target="https://www.nissan-global.com/EN/HERITAGE/tama_electric.html"/>
+    </entry>
+</xml>
