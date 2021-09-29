@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <xml>
     <entry type="car">
+        <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
+        <meaning datsun="SonofDat"/>
         <name>Datsun 12 Phaeton</name>
         <built when="1933"/>
         <size>sedan</size>
@@ -19,4 +20,3 @@
         <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_12_phaeton.html"/>
     </entry>
 </xml>
-<!--  -->
