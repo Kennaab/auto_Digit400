@@ -2,32 +2,39 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 start = xml
 xml = element xml {entry, text} #not sure if the type section below is correct b/c it is entry element
-entry = element entry {type, mixed{( tread | origin | meaning | name | built | size | dimensions | seating | enginePower | transmission | curbWeight | wheelbase| suspension | topSpeed)*, image, source}}
+entry = element entry {type, ( tread | origin | meaning | name | built | bodyStyle | dimensions | seating | enginePower | transmission | curbWeight | wheelbase| suspension | topSpeed)*, image, source}
 tread = element tread {type, quant, unit}
+type = attribute type {"car" | "front" | "rear" }
+unit = attribute unit {"mm" | "kg" | "kW" | "gears" | "cylinders" | "batteries" | "km/hr"} 
+quant = attribute quant {"xsd:integer"}
+
 origin = element origin {when}
-meaning = element meaning {datsun}
-datsun = attribute datsun {"SonofDat"}
+meaning = element meaning {term, definition}
+term = element term {text}
+definition = element definition {text}
+
+
 name = element name {text}
 built = element built {when}
-when = attribute when {"xsd:gYear"}
-size = element size {text}
-dimensions = element dimensions {mixed{( length | width | height)* , unit}}
-length = attribute length {"xsd:integer"}
-width = attribute width {"xsd:integer"}
-height = attribute height {"xsd:integer"}
-unit = attribute unit {mixed{("mm" | "kg" | "kW" | "gears" | "cylinders" | "batteries" | "km" |"hr")*}}  #"km"/"hr" not sure how to put / in rnc
-seating = element seating {text}
+when = attribute when {xsd:gYear | xsd:date}
+bodyStyle = element bodyStyle {text}
+dimensions = element dimensions {length?, width?, height?, unit}
+length = attribute length {xsd:integer}
+width = attribute width {xsd:integer}
+height = attribute height {xsd:integer}
+
+seating = element seating {xsd:integer} 
 enginePower = element enginePower {quant, unit}  
-quant = attribute quant {"xsd:integer"}
+
 transmission = element transmission {quant , unit}
 wheelbase = element wheelbase {quant, unit}
 curbWeight = element curbWeight {quant, unit}
 suspension = element suspension {type , text}
-type = attribute type {"car" | "front" | "rear" }
+
 topSpeed = element topSpeed {quant, unit}
 image = element image {target}
 source = element source {target}
-target = attribute target {"xsd:anyURI"}
+target = attribute target {xsd:anyURI}
 
 
 

@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Relax-NG/auto.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <entry type="car">
         <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
         <meaning datsun="SonofDat"/>
-        <name>Datsun 16 Roadster</name>
+        <name>Datsun 16 Coupe</name>
         <built when="1937"/>
         <size>sedan</size>
         <tread type="front" quant="1038" unit="mm"/>
         <tread type="rear" quant="1049" unit="mm"/>
-        <dimensions length="2790" width="1190" height="?" unit="mm"/>
+        <dimensions length="3129" width="1199" height="?" unit="mm"/>
         <seating>N/A</seating>
         <enginePower quant="12" unit="kW"/>
         <engineRPM>3600</engineRPM>
         <transmission quant="4" unit="cylinders"/>
-        <curbWeight quant="500" unit="kg"/>
+        <curbWeight quant="" unit="kg"/>
         <wheelbase quant="2005" unit="mm"/>
         <suspension type="front">?</suspension>
         <suspension type="rear">?</suspension>
-        <topSpeed quant="80" unit="km/hr"/>
+        <topSpeed quant="" unit="km/hr"/>
         <image
             target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/1317194651356052324.jpg"/>
         <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_16_roadster.html"/>
