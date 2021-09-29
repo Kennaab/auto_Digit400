@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    While the company is currently known as <company type="manufacturer">Nissan</company>, the company was actually originally founded in <year>1911</year> under the name of <company type="manufacturer">Kwaishinsha Motor Car Works</company> by <person name="CEO">Masuhiro Hashimoto</person>. After going through several name changes, <company type="manufacturer">Nissan</company> was ultimately decided as the final name in <year>1934</year>.
+    They produced their first <brand type="Datsun">Datsun</brand> in <year>1934</year>, <!--attach href of first car--> which was the brand name for their smaller cars. 
+    Their larger automobiles were referred to as <brand type="Nissan">Nissan</brand> and were first manufactured in <car year="invented">1937</car>, which used equipment from <company type="manufacturer">Graham Paige Motor Corps</company>. Their cars were in competition with <company type="manufacturer"> Ford</company> and <company type="manufacturer">Chevrolet</company> 
+</xml>
