@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Relax-NG/auto.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <entry type="car">
-        <name>Datsun Sports</name>
+        <meaning>
+            <term>Datson</term>
+            <definition>sonofDat</definition>
+        </meaning>
         <built when="1952"/>
-        <size>Sport Car</size>
+        <bodyStyle>Sport Car</bodyStyle>
         <dimensions length="3510" width="1360" height="1450" unit="mm"/>
         <seating>4</seating>
         <enginePower quant="9" unit="kW"/>
-        <engineRPM>?</engineRPM>
         <transmission quant="4" unit="cylinders"/>
         <curbWeight quant="750" unit="kg"/>
         <wheelbase quant="2150" unit="mm"/>

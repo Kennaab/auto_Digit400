@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Relax-NG/auto.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <entry type="car">
         <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
-        <meaning datsun="SonofDat"/>
+        <meaning>
+            <term>Datson</term>
+            <definition>sonofDat</definition>
+        </meaning>
         <name>Datsun 17 Sedan</name>
         <built when="1938"/>
-        <size>sedan</size>
-        <dimensions length="3187" width="1190" height="?" unit="mm"/>
+        <bodyStyle>sedan</bodyStyle>
+        <dimensions length="3187" width="1190" unit="mm"/>
         <seating>4</seating>
         <enginePower quant="12" unit="kW"/>
         <engineRPM>3600</engineRPM>
