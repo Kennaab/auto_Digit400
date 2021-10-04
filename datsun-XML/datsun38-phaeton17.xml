@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <entry type="car">
+        <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
+        <meaning>
+            <term>Datsun</term>
+            <definition>sonofDat</definition>
+        </meaning>
+        <name>Datsun 17 Phaeton</name>
+        <built when="1938"/>
+        <bodyStyle>sedan</bodyStyle>
+        <dimensions length="3129" width="1199" height="2005"/>
+        <enginePower quant="12" unit="kW"/>
+        <engineRPM>3600</engineRPM>
+        <wheelbase quant="2005" unit="mm"/>
+    </entry>
+</xml>
+

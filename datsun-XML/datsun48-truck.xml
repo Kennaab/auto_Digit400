@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <entry type="car">
+        <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
+        <meaning>
+            <term>Datsun</term>
+            <definition>sonofDat</definition>
+        </meaning>
+        <name>Datsun Truck</name>
+        <built when="1948"/>
+        <bodyStyle>commercial</bodyStyle>
+        <dimensions length="3147" width="1458" height="1550"/>
+        <enginePower quant="11" unit="kW"/>
+        <engineRPM>3600</engineRPM>
+        <transmission quant="4" unit="gears"/>
+        <curbWeight quant="620" unit="kg"/>
+        <wheelbase quant="2005" unit="mm"/>
+    </entry>
+</xml>
+
