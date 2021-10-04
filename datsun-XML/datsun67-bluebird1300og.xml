@@ -8,7 +8,7 @@
         </meaning>
         <name>Datsun Bluebird 1300 Estate Wagon</name>
         <built when="1967"/>
-        <bodyStyle>sedan</bodyStyle>
+        <bodyStyle>commercial</bodyStyle>
         <dimensions length="3995" width="1490" height="1430"/>
         <enginePower quant="46" unit="kW"/>
         <engineRPM>5000</engineRPM>

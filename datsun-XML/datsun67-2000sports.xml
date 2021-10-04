@@ -8,7 +8,7 @@
         </meaning>
         <name>Datsun 2000 Sports</name>
         <built when="1967"/>
-        <bodyStyle>sedan</bodyStyle>
+        <bodyStyle>sports</bodyStyle>
         <dimensions length="3910" width="1495" height="1300"/>
         <enginePower quant="107" unit="kW"/>
         <engineRPM>6000</engineRPM>
