@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <entry type="car">
+        <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
+        <meaning>
+            <term>Datsun</term>
+            <definition>sonofDat</definition>
+        </meaning>
+        <name>Datsun Bluebird 1300SS</name>
+        <built when="1966"/>
+        <bodyStyle>sedan</bodyStyle>
+        <dimensions length="4000" width="1490" height="1435"/>
+        <enginePower quant="5.5" unit="kW"/>
+        <engineRPM>6000</engineRPM>
+        <curbWeight quant="920" unit="kg"/>
+        <wheelbase quant="2380" unit="mm"/>
+        <suspension type="front">double wishbone</suspension>
+        <suspension type="rear">parallel leaf</suspension>
+    </entry>
+</xml>
+

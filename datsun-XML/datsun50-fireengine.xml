@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <entry type="car">
+        <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
+        <meaning>
+            <term>Datsun</term>
+            <definition>sonofDat</definition>
+        </meaning>
+        <name>Datsun Fire Engine</name>
+        <!-- F is for FIRE-->
+        <built when="1950"/>
+        <bodyStyle>commercial</bodyStyle>
+        <dimensions length="3020" width="1200" height="2005"/>
+        <enginePower quant="12" unit="kW"/>
+        <engineRPM>3600</engineRPM>
+        <wheelbase quant="2005" unit="mm"/>
+    </entry>
+</xml>
+

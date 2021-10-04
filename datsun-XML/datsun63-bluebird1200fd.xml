@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <entry type="car">
+        <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
+        <meaning>
+            <term>Datsun</term>
+            <definition>sonofDat</definition>
+        </meaning>
+        <name>Datsun Bluebird 1200 Fancy Deluxe</name>
+        <built when="1963"/>
+        <bodyStyle>sedan</bodyStyle>
+        <dimensions length="3915" width="1496" height="1470"/>
+        <enginePower quant="40.4" unit="kW"/>
+        <engineRPM>4800</engineRPM>
+        <curbWeight quant="870" unit="kg"/>
+        <wheelbase quant="2280" unit="mm"/>
+        <suspension type="front">double wishbone</suspension>
+        <suspension type="rear">parallel leaf</suspension>
+    </entry>
+</xml>
+

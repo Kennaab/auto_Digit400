@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <entry type="car">
+        <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
+        <meaning>
+            <term>Datsun</term>
+            <definition>sonofDat</definition>
+        </meaning>
+        <name>Datsun Fairlady 1500</name>
+        <built when="1961"/>
+        <bodyStyle>sports</bodyStyle>
+        <dimensions length="3910" width="1495" height="1275"/>
+        <enginePower quant="59" unit="kW"/>
+        <engineRPM>5600</engineRPM>
+        <curbWeight quant="870" unit="kg"/>
+        <wheelbase quant="2220" unit="mm"/>
+    </entry>
+</xml>
+

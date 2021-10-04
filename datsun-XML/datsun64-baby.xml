@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <entry type="car">
+        <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
+        <meaning>
+            <term>Datsun</term>
+            <definition>sonofDat</definition>
+        </meaning>
+        <name>Datsun Baby</name>
+        <built when="1964"/>
+        <bodyStyle>other</bodyStyle>
+        <dimensions length="2960" width="1420" height="1245"/>
+        <enginePower quant="5.5" unit="kW"/>
+        <engineRPM>3200</engineRPM>
+        <curbWeight quant="430" unit="kg"/>
+        <wheelbase quant="1670" unit="mm"/>
+        <suspension type="front">double wishbone</suspension>
+        <suspension type="rear">Trailing arm (independent)</suspension>
+    </entry>
+</xml>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <entry type="car">
+        <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
+        <meaning>
+            <term>Datsun</term>
+            <definition>sonofDat</definition>
+        </meaning>
+        <name>Datsun Pickup 1200 Deluxe</name>
+        <built when="1964"/>
+        <bodyStyle>commercial</bodyStyle>
+        <dimensions length="4125" width="1515" height="1610"/>
+        <enginePower quant="40" unit="kW"/>
+        <engineRPM>4800</engineRPM>
+        <curbWeight quant="955" unit="kg"/>
+        <wheelbase quant="2470" unit="mm"/>
+        <suspension type="front">double wishbone</suspension>
+        <suspension type="rear">semi-floating leaf</suspension>
+    </entry>
+</xml>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <entry type="car">
+        <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
+        <meaning>
+            <term>Datsun</term>
+            <definition>sonofDat</definition>
+        </meaning>
+        <name>Datsun Cablight 1150</name>
+        <built when="1966"/>
+        <bodyStyle>commercial</bodyStyle>
+        <dimensions length="3840" width="1608" height="1735"/>
+        <enginePower quant="5.5" unit="kW"/>
+        <engineRPM>5000</engineRPM>
+        <curbWeight quant="970" unit="kg"/>
+        <wheelbase quant="2220" unit="mm"/>
+        <suspension type="front">double wishbone</suspension>
+        <suspension type="rear">semi-floating leaf</suspension>
+    </entry>
+</xml>
+
