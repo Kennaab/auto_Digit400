@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <entry type="car">
+        <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
+        <meaning>
+            <term>Datsun</term>
+            <definition>sonofDat</definition>
+        </meaning>
+        <name>Datsun 1300 Van</name>
+        <built when="1966"/>
+        <bodyStyle>sedan</bodyStyle>
+        <dimensions length="4300" width="1570" height="1525"/>
+        <enginePower quant="46" unit="kW"/>
+        <engineRPM>5000</engineRPM>
+        <curbWeight quant="1070" unit="kg"/>
+        <wheelbase quant="2530" unit="mm"/>
+        <suspension type="front">drum</suspension>
+        <suspension type="rear">drum</suspension>
+    </entry>
+</xml>
+

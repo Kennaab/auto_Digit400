@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <entry type="car">
+        <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
+        <meaning>
+            <term>Datsun</term>
+            <definition>sonofDat</definition>
+        </meaning>
+        <name>Datsun Sunny 1000 4-door deluxe</name>
+        <built when="1967"/>
+        <bodyStyle>sedan</bodyStyle>
+        <dimensions length="4145" width="1445" height="1345"/>
+        <enginePower quant="41" unit="kW"/>
+        <engineRPM>6000</engineRPM>
+        <curbWeight quant="940" unit="kg"/>
+        <wheelbase quant="2280" unit="mm"/>
+        <suspension type="front">lateral leaf (independent)</suspension>
+        <suspension type="rear">parallel leaf</suspension>
+    </entry>
+</xml>

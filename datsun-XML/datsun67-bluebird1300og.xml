@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <entry type="car">
+        <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
+        <meaning>
+            <term>Datsun</term>
+            <definition>sonofDat</definition>
+        </meaning>
+        <name>Datsun Bluebird 1300 Estate Wagon</name>
+        <built when="1967"/>
+        <bodyStyle>sedan</bodyStyle>
+        <dimensions length="3995" width="1490" height="1430"/>
+        <enginePower quant="46" unit="kW"/>
+        <engineRPM>5000</engineRPM>
+        <wheelbase quant="2380" unit="mm"/>
+        <suspension type="front">double wishbone</suspension>
+        <suspension type="rear">semi-eliptic leaf rigid</suspension>
+    </entry>
+</xml>
+

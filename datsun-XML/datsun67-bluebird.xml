@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <entry type="car">
+        <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
+        <meaning>
+            <term>Datsun</term>
+            <definition>sonofDat</definition>
+        </meaning>
+        <name>Datsun Bluebird Estate Wagon</name>
+        <built when="1967"/>
+        <bodyStyle>sedan</bodyStyle>
+        <dimensions length="4145" width="1560" height="1435"/>
+        <enginePower quant="53" unit="kW"/>
+        <engineRPM>6000</engineRPM>
+        <curbWeight quant="940" unit="kg"/>
+        <wheelbase quant="2420" unit="mm"/>
+        <suspension type="front">strut</suspension>
+        <suspension type="rear">leaf rigid</suspension>
+    </entry>
+</xml>
+

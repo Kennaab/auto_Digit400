@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <entry type="car">
+        <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
+        <meaning>
+            <term>Datsun</term>
+            <definition>sonofDat</definition>
+        </meaning>
+        <name>Datsun Sunny 1000 Van Deluxe</name>
+        <built when="1968"/>
+        <bodyStyle>sedan</bodyStyle>
+        <dimensions length="3800" width="1445" height="1385"/>
+        <enginePower quant="41" unit="kW"/>
+        <engineRPM>3600</engineRPM>
+        <curbWeight quant="665" unit="kg"/>
+        <wheelbase quant="2280" unit="mm"/>
+        <suspension type="front">lateral</suspension>
+        <suspension type="rear">parallel</suspension>
+    </entry>
+</xml>
+
