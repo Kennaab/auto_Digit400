@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <entry type="car">
+        <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
+        <meaning>
+            <term>Datsun</term>
+            <definition>sonofDat</definition>
+        </meaning>
+        <name>Datsun 12 Phaeton</name>
+        <built when="1933"/>
+        <bodyStyle>sedan</bodyStyle>
+        <dimensions length="2710" width="1175" height="?"/>
+        <wheelbase quant="1918" unit="mm"/>
+        <enginePower quant="12" unit="ps"/>
+    </entry>
+</xml>
+

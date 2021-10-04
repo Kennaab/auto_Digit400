@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <entry type="car">
+        <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
+        <meaning>
+            <term>Datsun</term>
+            <definition>sonofDat</definition>
+        </meaning>
+        <name>Datsun 14 Roadster</name>
+        <built when="1935"/>
+        <bodyStyle>sedan</bodyStyle>
+        <dimensions length="2800" width="1200" height="?"/>
+        <wheelbase quant="1980" unit="mm"/>
+    </entry>
+</xml>
+
