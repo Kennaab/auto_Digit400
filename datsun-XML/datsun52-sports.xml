@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <entry type="car">
+        <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
+        <meaning>
+            <term>Datsun</term>
+            <definition>sonofDat</definition>
+        </meaning>
+        <name>Datsun Sports</name>
+        <built when="1952"/>
+        <bodyStyle>sport</bodyStyle>
+        <dimensions length="3510" width="1360" height="1450"/>
+        <enginePower quant="15" unit="kW"/>
+        <engineRPM>3600</engineRPM>
+        <curbWeight quant="750" unit="kg"/>
+        <wheelbase quant="2005" unit="mm"/>
+    </entry>
+</xml>
+

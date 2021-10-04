@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <entry type="car">
+        <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
+        <meaning>
+            <term>Datsun</term>
+            <definition>sonofDat</definition>
+        </meaning>
+        <name>Datsun Deluxe Sedan</name>
+        <built when="1953"/>
+        <bodyStyle>sedan</bodyStyle>
+        <dimensions length="3805" width="1480" height="1560"/>
+        <enginePower quant="24" unit="ps"/>
+        <curbWeight quant="890" unit="kg"/>
+        <wheelbase quant="2150" unit="mm"/>
+    </entry>
+</xml>
+
