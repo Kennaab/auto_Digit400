@@ -10,12 +10,14 @@
         <name>Datsun 1000 Sedan "Fuji"</name>
         <built when="1958"/>
         <bodyStyle>commercial</bodyStyle>
-        <dimensions length="3742" width="1466" height="1625"/>
+        <dimensions length="3742" width="1466" height="1625" unit="mm"/>
         <enginePower quant="25" unit="kW"/>
         <engineRPM>4400</engineRPM>
         <transmission quant="4" unit="gears"/>
         <curbWeight quant="620" unit="kg"/>
         <wheelbase quant="2220" unit="mm"/>
+        <image target="???"></image>
+        <source target="???"></source>
     </entry>
 </xml>
 

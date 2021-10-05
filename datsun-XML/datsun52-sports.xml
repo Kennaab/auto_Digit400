@@ -10,11 +10,13 @@
         <name>Datsun Sports</name>
         <built when="1952"/>
         <bodyStyle>sport</bodyStyle>
-        <dimensions length="3510" width="1360" height="1450"/>
+        <dimensions length="3510" width="1360" height="1450" unit="mm"/>
         <enginePower quant="15" unit="kW"/>
         <engineRPM>3600</engineRPM>
         <curbWeight quant="750" unit="kg"/>
         <wheelbase quant="2005" unit="mm"/>
+        <image target="???"></image>
+        <source target="???"></source>
     </entry>
 </xml>
 

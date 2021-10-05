@@ -10,12 +10,14 @@
         <name>Datsun Truck</name>
         <built when="1948"/>
         <bodyStyle>commercial</bodyStyle>
-        <dimensions length="3147" width="1458" height="1550"/>
+        <dimensions length="3147" width="1458" height="1550" unit="mm"/>
         <enginePower quant="11" unit="kW"/>
         <engineRPM>3600</engineRPM>
         <transmission quant="4" unit="gears"/>
         <curbWeight quant="620" unit="kg"/>
         <wheelbase quant="2005" unit="mm"/>
+        <image target="???"></image>
+        <source target="???"></source>
     </entry>
 </xml>
 

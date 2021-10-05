@@ -11,10 +11,12 @@
         <!-- F is for FIRE-->
         <built when="1950"/>
         <bodyStyle>commercial</bodyStyle>
-        <dimensions length="3020" width="1200" height="2005"/>
+        <dimensions length="3020" width="1200" height="2005" unit="mm"/>
         <enginePower quant="12" unit="kW"/>
         <engineRPM>3600</engineRPM>
         <wheelbase quant="2005" unit="mm"/>
+        <image target="???"></image>
+        <source target="???"></source>
     </entry>
 </xml>
 

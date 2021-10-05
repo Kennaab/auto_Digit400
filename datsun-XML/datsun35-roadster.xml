@@ -10,8 +10,10 @@
         <name>Datsun 14 Roadster</name>
         <built when="1935"/>
         <bodyStyle>sedan</bodyStyle>
-        <dimensions length="2800" width="1200" height="?"/>
+        <dimensions length="2800" width="1200" unit="mm"/>
         <wheelbase quant="1980" unit="mm"/>
+        <image target="???"></image>
+        <source target="???"></source>
     </entry>
 </xml>
 

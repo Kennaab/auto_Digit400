@@ -10,11 +10,13 @@
         <name>Datsun 17 Sedan</name>
         <built when="1938"/>
         <bodyStyle>sedan</bodyStyle>
-        <dimensions length="3187" width="1190" height="2005"/>
+        <dimensions length="3187" width="1190" height="2005" unit="mm"/>
         <enginePower quant="12" unit="kW"/>
         <engineRPM>3600</engineRPM>
         <curbWeight quant="630" unit="kg"/>
         <wheelbase quant="2005" unit="mm"/>
+        <image target="???"></image>
+        <source target="???"></source>
     </entry>
 </xml>
 

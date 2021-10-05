@@ -10,13 +10,15 @@
         <name>Datsun Fairlady</name>
         <built when="1961"/>
         <bodyStyle>sports</bodyStyle>
-        <dimensions length="4025" width="1475" height="1380"/>
+        <dimensions length="4025" width="1475" height="1380" unit="mm"/>
         <enginePower quant="40" unit="kW"/>
         <engineRPM>4800</engineRPM>
         <curbWeight quant="890" unit="kg"/>
         <wheelbase quant="2220" unit="mm"/>
         <suspension type="front">torsion bar (independent)</suspension>
         <suspension type="rear">parallel leaf</suspension>
+        <image target="???"></image>
+        <source target="???"></source>
     </entry>
 </xml>
 

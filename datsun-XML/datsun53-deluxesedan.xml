@@ -10,10 +10,12 @@
         <name>Datsun Deluxe Sedan</name>
         <built when="1953"/>
         <bodyStyle>sedan</bodyStyle>
-        <dimensions length="3805" width="1480" height="1560"/>
+        <dimensions length="3805" width="1480" height="1560" unit="mm"/>
         <enginePower quant="24" unit="ps"/>
         <curbWeight quant="890" unit="kg"/>
         <wheelbase quant="2150" unit="mm"/>
+        <image target="???"></image>
+        <source target="???"></source>
     </entry>
 </xml>
 
