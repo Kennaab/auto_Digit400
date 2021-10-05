@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xml>
+<?xml-model href="../Relax-NG/auto.rnc" type="application/relax-ng-compact-syntax"?>
     <entry type="car">
         <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
         <meaning>
