@@ -10,9 +10,11 @@
         <name>Datsun 12 Phaeton</name>
         <built when="1933"/>
         <bodyStyle>sedan</bodyStyle>
-        <dimensions length="2710" width="1175" height="?"/>
+        <dimensions length="2710" width="1175" unit="mm"/>
         <wheelbase quant="1918" unit="mm"/>
         <enginePower quant="12" unit="ps"/>
+        <image target="???"></image>
+        <source target="???"></source>
     </entry>
 </xml>
 
