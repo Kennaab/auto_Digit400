@@ -15,6 +15,12 @@
         <transmission quant="4" unit="gears"/>
         <curbWeight quant="620" unit="kg"/>
         <wheelbase quant="2220" unit="mm"/>
+        <topSpeed quant="95" unit="km/h"/>
+        <suspension type="front"></suspension>
+        <suspension type="rear"></suspension>
+    <image
+        target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/1317184254590094239.jpg"/>
+        <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_1000_sedan_fuji.html"/>
     </entry>
 </xml>
 
