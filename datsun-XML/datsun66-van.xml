@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Relax-NG/auto.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <entry type="car">
         <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
@@ -8,14 +9,21 @@
         </meaning>
         <name>Datsun 1300 Van</name>
         <built when="1966"/>
-        <bodyStyle>sedan</bodyStyle>
-        <dimensions length="4300" width="1570" height="1525"/>
+        <bodyStyle>commericial vehicle</bodyStyle>
+        <tread type="front" quant="1250" unit="mm"/>
+        <tread type="rear" quant="1267" unit="mm"/>
+        <dimensions length="4300" width="1570" height="1525" unit="mm"/>
         <enginePower quant="46" unit="kW"/>
+        <transmission quant="4" unit="cylinders"/>
         <engineRPM>5000</engineRPM>
         <curbWeight quant="1070" unit="kg"/>
         <wheelbase quant="2530" unit="mm"/>
-        <suspension type="front">drum</suspension>
-        <suspension type="rear">drum</suspension>
+        <suspension type="front">wishbone torsion bar</suspension>
+        <suspension type="rear">parallel leaf</suspension>
+        <topSpeed quant="120" unit="km/hr"/>
+        <image
+            target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/datsun_1300_van.jpg"/>
+        <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_1300_van.html"/>
     </entry>
 </xml>
 

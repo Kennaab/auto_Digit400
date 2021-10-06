@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Relax-NG/auto.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <entry type="car">
         <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
@@ -8,14 +9,20 @@
         </meaning>
         <name>Datsun Sunny 1000 Van Deluxe</name>
         <built when="1968"/>
-        <bodyStyle>sedan</bodyStyle>
-        <dimensions length="3800" width="1445" height="1385"/>
+        <bodyStyle>commerical vehicle</bodyStyle>
+        <tread type="front" quant="1190" unit="mm"/>
+        <tread type="rear" quant="1180" unit="mm"/>
+        <dimensions length="3800" width="1445" height="1385" unit="mm"/>
         <enginePower quant="41" unit="kW"/>
-        <engineRPM>3600</engineRPM>
+        <transmission quant="4" unit="cylinders"/>
+        <engineRPM>6000</engineRPM>
         <curbWeight quant="665" unit="kg"/>
         <wheelbase quant="2280" unit="mm"/>
-        <suspension type="front">lateral</suspension>
-        <suspension type="rear">parallel</suspension>
+        <suspension type="front">lateral leaf</suspension>
+        <suspension type="rear">parallel leaf</suspension>
+        <image
+            target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/292/high.jpg"/>
+        <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_sunny_1000_van.html"/>
     </entry>
 </xml>
 

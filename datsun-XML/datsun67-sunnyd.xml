@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Relax-NG/auto.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <entry type="car">
         <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
@@ -6,15 +7,22 @@
             <term>Datsun</term>
             <definition>sonofDat</definition>
         </meaning>
-        <name>Datsun Sunny 1000 4-door deluxe</name>
+        <name>Datsun Sunny 1000 4-door Deluxe</name>
         <built when="1967"/>
         <bodyStyle>sedan</bodyStyle>
-        <dimensions length="4145" width="1445" height="1345"/>
+        <tread type="front" quant="1190" unit="mm"/>
+        <tread type="rear" quant="1180" unit="mm"/>
+        <dimensions length="3820" width="1445" height="1345" unit="mm"/>
         <enginePower quant="41" unit="kW"/>
+        <transmission quant="4" unit="cylinders"/>
         <engineRPM>6000</engineRPM>
-        <curbWeight quant="940" unit="kg"/>
+        <curbWeight quant="665" unit="kg"/>
         <wheelbase quant="2280" unit="mm"/>
         <suspension type="front">lateral leaf (independent)</suspension>
         <suspension type="rear">parallel leaf</suspension>
+        <topSpeed quant="135" unit="km/hr"/>
+        <image
+            target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/datsun_sunny_1000_4-door.jpg"/>
+        <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_sunny_1000_4-door.html"/>
     </entry>
 </xml>

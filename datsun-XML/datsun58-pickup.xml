@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Relax-NG/auto.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <entry type="car">
         <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
@@ -9,18 +10,23 @@
         <name>Datsun 1000 Sedan "Fuji"</name>
         <built when="1958"/>
         <bodyStyle>commercial</bodyStyle>
-        <dimensions length="3742" width="1466" height="1625"/>
+        <dimensions length="3742" width="1466" height="1625" unit="mm"/>
         <enginePower quant="25" unit="kW"/>
         <engineRPM>4400</engineRPM>
         <transmission quant="4" unit="gears"/>
         <curbWeight quant="620" unit="kg"/>
         <wheelbase quant="2220" unit="mm"/>
+<<<<<<< HEAD
         <topSpeed quant="95" unit="km/h"/>
         <suspension type="front"></suspension>
         <suspension type="rear"></suspension>
     <image
         target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/1317184254590094239.jpg"/>
         <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_1000_sedan_fuji.html"/>
+=======
+        <image target="???"></image>
+        <source target="???"></source>
+>>>>>>> 64f8b6f9321f75afb14882d96a35ea7affc054ce
     </entry>
 </xml>
 

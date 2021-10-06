@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Relax-NG/auto.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <entry type="car">
         <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
@@ -8,14 +9,23 @@
         </meaning>
         <name>Datsun Bluebird 1300SS</name>
         <built when="1966"/>
-        <bodyStyle>sedan</bodyStyle>
-        <dimensions length="4000" width="1490" height="1435"/>
+        <bodyStyle>The 14th East-African Safari Rally in 1966 (Class winner)
+            Sedan / Rally Car / Competition
+        </bodyStyle>
+        <tread type="front" quant="1206" unit="mm"/>
+        <tread type="rear" quant="1198" unit="mm"/>
+        <dimensions length="4000" width="1490" height="1470" unit="mm"/>
         <enginePower quant="5.5" unit="kW"/>
+        <transmission quant="4" unit="cylinders"/>
         <engineRPM>6000</engineRPM>
-        <curbWeight quant="920" unit="kg"/>
+        <curbWeight quant="900" unit="kg"/>
         <wheelbase quant="2380" unit="mm"/>
         <suspension type="front">double wishbone</suspension>
         <suspension type="rear">parallel leaf</suspension>
+        <topSpeed quant="150" unit="km/hr"/>
+        <image
+            target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/1317178574603096043.jpg"/>
+        <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_bluebird_1300ss_red.html"/>
     </entry>
 </xml>
 

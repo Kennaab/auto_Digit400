@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Relax-NG/auto.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <entry type="car">
         <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
@@ -8,14 +9,21 @@
         </meaning>
         <name>Datsun Pickup 1200 Deluxe</name>
         <built when="1964"/>
-        <bodyStyle>commercial</bodyStyle>
-        <dimensions length="4125" width="1515" height="1610"/>
+        <bodyStyle>commercial vehicle</bodyStyle>
+        <seating>2</seating>
+        <tread type="front" quant="1170" unit="mm"/>
+        <tread type="rear" quant="1187" unit="mm"/>
+        <dimensions length="4125" width="1515" height="1610" unit="mm"/>
         <enginePower quant="40" unit="kW"/>
+        <transmission quant="4" unit="cylinders"/>
         <engineRPM>4800</engineRPM>
         <curbWeight quant="955" unit="kg"/>
         <wheelbase quant="2470" unit="mm"/>
         <suspension type="front">double wishbone</suspension>
         <suspension type="rear">semi-floating leaf</suspension>
+        <image
+            target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/1317197654830080461.jpg"/>
+        <source target="https://www.nissan-global.com/EN/HERITAGE/016_datsun_pickup_1200_dx.html"/>
     </entry>
 </xml>
 

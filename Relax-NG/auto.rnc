@@ -25,7 +25,7 @@ height = attribute height {xsd:integer}
 
 seating = element seating {xsd:integer} 
 enginePower = element enginePower {quant, unit}  
-engineRPM = element engineRPM {xsd:integer}
+engineRPM = element engineRPM {xsd:integer | xsd:float}
 
 transmission = element transmission {quant , unit}
 wheelbase = element wheelbase {quant, unit}

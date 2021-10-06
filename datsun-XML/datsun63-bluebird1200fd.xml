@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Relax-NG/auto.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <entry type="car">
         <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
@@ -9,13 +10,20 @@
         <name>Datsun Bluebird 1200 Fancy Deluxe</name>
         <built when="1963"/>
         <bodyStyle>sedan</bodyStyle>
-        <dimensions length="3915" width="1496" height="1470"/>
+        <tread type="front" quant="1209" unit="mm"/>
+        <tread type="rear" quant="1194" unit="mm"/>
+        <dimensions length="3915" width="1496" height="1470" unit="mm"/>
         <enginePower quant="40.4" unit="kW"/>
+        <transmission quant="4" unit="cylinders"/>
         <engineRPM>4800</engineRPM>
         <curbWeight quant="870" unit="kg"/>
         <wheelbase quant="2280" unit="mm"/>
         <suspension type="front">double wishbone</suspension>
         <suspension type="rear">parallel leaf</suspension>
+        <image
+            target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/158/high.jpg"/>
+        <source target="https://www.nissan-global.com/EN/HERITAGE/158_datsun_bluebird_1200_fancy_dx.html"/>
     </entry>
 </xml>
+
 

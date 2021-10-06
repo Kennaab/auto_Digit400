@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Relax-NG/auto.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <entry type="car">
         <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
@@ -9,9 +10,17 @@
         <name>Datsun 12 Phaeton</name>
         <built when="1933"/>
         <bodyStyle>sedan</bodyStyle>
+<<<<<<< HEAD
         <dimensions length="2710" width="1175" />
         <wheelbase quant="1918" unit="mm"/>
         <enginePower quant="9" unit="kW"/>
+=======
+        <dimensions length="2710" width="1175" unit="mm"/>
+        <wheelbase quant="1918" unit="mm"/>
+        <enginePower quant="12" unit="ps"/>
+        <image target="???"></image>
+        <source target="???"></source>
+>>>>>>> 64f8b6f9321f75afb14882d96a35ea7affc054ce
     </entry>
 </xml>
 

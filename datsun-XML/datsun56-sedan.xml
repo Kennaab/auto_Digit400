@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Relax-NG/auto.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <entry type="car">
         <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
@@ -9,10 +10,12 @@
         <name>Datsun Sedan</name>
         <built when="1956"/>
         <bodyStyle>sedan</bodyStyle>
-        <dimensions length="3860" width="1466" height="1540"/>
+        <dimensions length="3860" width="1466" height="1540" unit="mm"/>
         <enginePower quant="24" unit="ps"/>
         <curbWeight quant="880" unit="kg"/>
         <wheelbase quant="2220" unit="mm"/>
+        <image target="???"></image>
+        <source target="???"></source>
     </entry>
 </xml>
 

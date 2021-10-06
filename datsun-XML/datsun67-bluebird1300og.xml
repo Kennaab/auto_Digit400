@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Relax-NG/auto.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <entry type="car">
         <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
@@ -8,13 +9,20 @@
         </meaning>
         <name>Datsun Bluebird 1300 Estate Wagon</name>
         <built when="1967"/>
-        <bodyStyle>commercial</bodyStyle>
-        <dimensions length="3995" width="1490" height="1430"/>
+        <bodyStyle>commercial vehicle</bodyStyle>
+        <tread type="front" quant="1240" unit="mm"/>
+        <tread type="rear" quant="1130" unit="mm"/>
+        <dimensions length="3995" width="1490" height="1430" unit="mm"/>
         <enginePower quant="46" unit="kW"/>
+        <transmission quant="4" unit="cylinders"/>
         <engineRPM>5000</engineRPM>
         <wheelbase quant="2380" unit="mm"/>
         <suspension type="front">double wishbone</suspension>
         <suspension type="rear">semi-eliptic leaf rigid</suspension>
+        <topSpeed quant="140" unit="km/hr"/>
+        <image
+            target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/1317169747620098880.jpg"/>
+        <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_bluebird_1300_Wagon.html"/>
     </entry>
 </xml>
 
