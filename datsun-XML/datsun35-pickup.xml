@@ -9,13 +9,17 @@
         </meaning>
         <name>Datsun 14 Pickup</name>
         <built when="1935"/>
-        <bodyStyle>commercial</bodyStyle>
-        <dimensions length="2790" width="1190" height="2005" unit="mm"/>
+        <bodyStyle>commercial vehicle</bodyStyle>
+        <tread type="front" quant="990" unit="mm"/>
+        <tread type="rear" quant="1026" unit="mm"/>
+        <dimensions length="2790" width="1190" unit="mm"/>
         <enginePower quant="11" unit="kW"/>
+        <transmission quant="4" unit="cylinders"/>
         <engineRPM>3600</engineRPM>
         <wheelbase quant="2005" unit="mm"/>
-        <image target="???"></image>
-        <source target="???"></source>
+        <image
+            target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/454/high.jpg"/>
+        <source target="https://www.nissan-global.com/EN/HERITAGE/Datsun_14_Pickup.html"/>
     </entry>
 </xml>
 

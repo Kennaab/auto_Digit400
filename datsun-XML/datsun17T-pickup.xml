@@ -9,7 +9,7 @@
         </meaning>
         <name>Datsun 17T Pickup</name>
         <built when="1938"/>
-        <bodyStyle>sedan</bodyStyle>
+        <bodyStyle>commerical vehicle</bodyStyle>
         <tread type="front" quant="1038" unit="mm"/>
         <tread type="rear" quant="1049" unit="mm"/>
         <dimensions length="3020" width="1197" unit="mm"/>
