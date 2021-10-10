@@ -11,14 +11,14 @@
         <built when="1958"/>
         <seating>4</seating>
         <bodyStyle>sedan</bodyStyle>
-        <dimensions length="3880" width="1466" height="1500"/>
+        <dimensions length="3880" width="1466" height="1500" unit="mm"/>
         <enginePower quant="27" unit="kW"/>
         <engineRPM>4400</engineRPM>
         <curbWeight quant="925" unit="kg"/>
         <wheelbase quant="2220" unit="mm"/>
-    </entry>
     <image
         target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/1317187037026090350.jpg"/>
     <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_1000_sedan_163.html"/>
+    </entry>
 </xml>
 

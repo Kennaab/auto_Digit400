@@ -10,13 +10,18 @@
         <name>Datsun 1000 Sedan "Fuji"</name>
         <built when="1958"/>
         <bodyStyle>sedan</bodyStyle>
-        <dimensions length="3860" width="1466" height="1540"/>
+        <dimensions length="3860" width="1466" height="1540" unit="mm"/>
         <enginePower quant="25" unit="kW"/>
         <engineRPM>4400</engineRPM>
+        <engine quant="4" unit="cylinders"/>
         <curbWeight quant="880" unit="kg"/>
         <wheelbase quant="2220" unit="mm"/>
         <suspension type="front">leaf rigid</suspension>
         <suspension type="rear">leaf rigid</suspension>
+        <topSpeed quant="95" unit="km/hr"/>
+        <image
+            target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/1317184254590094239.jpg"/>
+        <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_1000_sedan_fuji.html"/>
     </entry>
 </xml>
 
