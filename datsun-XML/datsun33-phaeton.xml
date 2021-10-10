@@ -10,17 +10,16 @@
         <name>Datsun 12 Phaeton</name>
         <built when="1933"/>
         <bodyStyle>sedan</bodyStyle>
-<<<<<<< HEAD
-        <dimensions length="2710" width="1175" />
+        <tread type="front" quant="965" unit="mm"/>
+        <dimensions length="2710" width="1175" unit="mm"/>
         <wheelbase quant="1918" unit="mm"/>
         <enginePower quant="9" unit="kW"/>
-=======
+        <transmission quant="4" unit="cylinders"/>
         <dimensions length="2710" width="1175" unit="mm"/>
         <wheelbase quant="1918" unit="mm"/>
         <enginePower quant="12" unit="ps"/>
-        <image target="???"></image>
-        <source target="???"></source>
->>>>>>> 64f8b6f9321f75afb14882d96a35ea7affc054ce
+        <image target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/1317195088275065180.jpg"></image>
+        <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_12_phaeton.html"></source>
     </entry>
 </xml>
 

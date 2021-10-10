@@ -14,8 +14,8 @@
         <tread type="rear" quant="1026" unit="mm"/>
         <dimensions length="2790" width="1190" unit="mm"/>
         <enginePower quant="11" unit="kW"/>
-        <transmission quant="4" unit="cylinders"/>
         <engineRPM>3600</engineRPM>
+        <engine quant="4" unit="cylinders"/>
         <wheelbase quant="2005" unit="mm"/>
         <image
             target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/454/high.jpg"/>

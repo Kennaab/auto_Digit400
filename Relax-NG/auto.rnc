@@ -2,7 +2,7 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 start = xml
 xml = element xml {entry, text} #not sure if the type section below is correct b/c it is entry element
-entry = element entry {type, ( tread | origin | meaning | name | built | bodyStyle | dimensions | seating | enginePower | engineRPM | transmission | curbWeight | wheelbase| suspension | topSpeed)*, image, source}
+entry = element entry {type, ( tread | origin | meaning | name | built | bodyStyle | dimensions | seating | enginePower | engineRPM | engine | transmission | curbWeight | wheelbase| suspension | topSpeed)*, image, source}
 tread = element tread {type, quant, unit}
 type = attribute type {"car" | "front" | "rear" }
 unit = attribute unit {"mm" | "kg" | "kW" | "ps" | "gears" | "cylinders" | "batteries" | "km/hr"} 
@@ -27,6 +27,9 @@ seating = element seating {xsd:integer}
 enginePower = element enginePower {quant, unit}  
 engineRPM = element engineRPM {xsd:integer | xsd:float}
 
+
+#I made engine and transmission separate categories as incase I did something wrong I don't have to scramble to fix the numbers - SN
+engine = element engine {quant , unit}
 transmission = element transmission {quant , unit}
 wheelbase = element wheelbase {quant, unit}
 curbWeight = element curbWeight {quant, unit}
