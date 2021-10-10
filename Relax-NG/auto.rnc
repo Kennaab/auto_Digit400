@@ -6,7 +6,8 @@ entry = element entry {type, ( tread | origin | meaning | name | built | bodySty
 tread = element tread {type, quant, unit}
 type = attribute type {"car" | "front" | "rear" }
 unit = attribute unit {"mm" | "mmq" | "kg" | "kW" | "ps" | "gears" | "cylinders" | "batteries" | "km/hr"} 
-quant = attribute quant {xsd:integer}
+quant = attribute quant {xsd:float}
+# ebb: xsd:float permits a decimal value.
 
 origin = element origin {when, text}
 meaning = element meaning {term , definition}
