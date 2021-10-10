@@ -5,7 +5,7 @@ xml = element xml {entry, text} #not sure if the type section below is correct b
 entry = element entry {type, ( tread | origin | meaning | name | built | bodyStyle | dimensions | seating | enginePower | engineRPM | engine | transmission | curbWeight | wheelbase| suspension | topSpeed)*, image, source}
 tread = element tread {type, quant, unit}
 type = attribute type {"car" | "front" | "rear" }
-unit = attribute unit {"mm" | "kg" | "kW" | "ps" | "gears" | "cylinders" | "batteries" | "km/hr"} 
+unit = attribute unit {"mm" | "mmq" | "kg" | "kW" | "ps" | "gears" | "cylinders" | "batteries" | "km/hr"} 
 quant = attribute quant {xsd:integer}
 
 origin = element origin {when, text}

@@ -10,12 +10,15 @@
         <name>Datsun 15 Phaeton</name>
         <built when="1936"/>
         <bodyStyle>sedan</bodyStyle>
+        <tread type="front" quant="1038" unit="mmq"/>
+        <tread type="rear" quant="1049" unit="mmq"/>
         <dimensions length="2790" width="1190" height="2005" unit="mm"/>
         <enginePower quant="12" unit="kW"/>
         <engineRPM>3600</engineRPM>
+        <engine quant="4" unit="cylinders"/>
         <wheelbase quant="2005" unit="mm"/>
-        <image target="???"></image>
-        <source target="???"></source>
+        <image target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/1317194772214078845.jpg"></image>
+        <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_15_phaeton.html"></source>
     </entry>
 </xml>
 
