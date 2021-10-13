@@ -10,13 +10,16 @@
         <name>Datsun 14 Roadster</name>
         <built when="1935"/>
         <bodyStyle>sedan</bodyStyle>
+        <seating>2</seating>
         <tread type="front" quant="980" unit="mm"/>
         <tread type="rear" quant="1016" unit="mm"/>
         <dimensions length="2800" width="1200" unit="mm"/>
+        <enginePower quant="11" unit="kW"/>
         <engine quant="4" unit="cylinders"/>
         <wheelbase quant="1980" unit="mm"/>
-        <image target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/1317194929376090544.jpg"></image>
-        <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_14_roadster_yellow.html"></source>
+        <topSpeed quant="80" unit="km/hr"/>
+        <image target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/1317194929376090544.jpg"/>
+        <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_14_roadster_yellow.html"/>
     </entry>
 </xml>
 

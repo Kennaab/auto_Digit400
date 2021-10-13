@@ -4,18 +4,23 @@
     <entry type="car">
         <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
         <meaning>
-            <term>Datsun</term>
+            <term>Datson</term>
             <definition>sonofDat</definition>
         </meaning>
         <name>Datsun 17T Pickup</name>
         <built when="1938"/>
-        <bodyStyle>commercial</bodyStyle>
-        <dimensions length="3020" width="1197" height="2005" unit="mm"/>
+        <bodyStyle>commerical vehicle</bodyStyle>
+        <tread type="front" quant="1038" unit="mm"/>
+        <tread type="rear" quant="1049" unit="mm"/>
+        <dimensions length="3020" width="1197" unit="mm"/>
         <enginePower quant="12" unit="kW"/>
+        <engine quant="4" unit="cylinders"/>
         <engineRPM>3600</engineRPM>
         <wheelbase quant="2005" unit="mm"/>
-        <image target="???"></image>
-        <source target="???"></source>
+        <image
+            target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/HIGH/251_datsun_17t_pickup.jpg"/>
+        <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_17t_pickup.html"/>
     </entry>
 </xml>
+
 

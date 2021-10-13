@@ -13,7 +13,7 @@
         <bodyStyle>sedan</bodyStyle>
         <dimensions length="3187" width="1190" height="2005" unit="mm"/>
         <enginePower quant="12" unit="kW"/>
-        <transmission quant="4" unit="cylinders"/>
+        <engine quant="4" unit="cylinders"/>
         <engineRPM>3600</engineRPM>
         <curbWeight quant="630" unit="kg"/>
         <wheelbase quant="2005" unit="mm"/>

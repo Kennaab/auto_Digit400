@@ -10,14 +10,15 @@
         <name>Datsun Sports</name>
         <built when="1952"/>
         <bodyStyle>sport</bodyStyle>
-        <dimensions length="3510" width="1360" height="1450" unit="mm"/>
         <seating>4</seating>
+        <dimensions length="3510" width="1360" height="1450" unit="mm"/>
         <enginePower quant="15" unit="kW"/>
-        <engineRPM>3600</engineRPM>
+        <engine quant="4" unit="cylinders"/>
         <curbWeight quant="750" unit="kg"/>
-        <wheelbase quant="2005" unit="mm"/>
-        <image target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/1317185475489081135.jpg"></image>
-        <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_sports.html"></source>
+        <wheelbase quant="2150" unit="mm"/>
+        <image target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/1317185475489081135.jpg"/>
+        <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_sports.html"/>
     </entry>
 </xml>
+
 

@@ -14,12 +14,11 @@
         <dimensions length="2710" width="1175" unit="mm"/>
         <wheelbase quant="1918" unit="mm"/>
         <enginePower quant="9" unit="kW"/>
-        <transmission quant="4" unit="cylinders"/>
-        <dimensions length="2710" width="1175" unit="mm"/>
+        <engine quant="4" unit="cylinders"/>
         <wheelbase quant="1918" unit="mm"/>
-        <enginePower quant="12" unit="ps"/>
-        <image target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/1317195088275065180.jpg"></image>
-        <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_12_phaeton.html"></source>
+        <enginePower quant="9" unit="kW"/>
+        <image target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/1317195088275065180.jpg"/>
+        <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_12_phaeton.html"/>
     </entry>
 </xml>
 

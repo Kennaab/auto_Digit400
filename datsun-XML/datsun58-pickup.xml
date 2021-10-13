@@ -7,18 +7,19 @@
             <term>Datsun</term>
             <definition>sonofDat</definition>
         </meaning>
-        <name>Datsun 1000 Sedan "Fuji"</name>
+        <name>Datsun Pickup</name>
         <built when="1958"/>
-        <bodyStyle>commercial</bodyStyle>
-        <dimensions length="3742" width="1466" height="1625" unit="mm"/>
+        <bodyStyle>Commercial Vehicle</bodyStyle>
+        <dimensions length="3860" width="1466" height="1535" unit="mm"/>
         <enginePower quant="25" unit="kW"/>
         <engineRPM>4400</engineRPM>
-        <transmission quant="4" unit="gears"/>
-        <curbWeight quant="620" unit="kg"/>
+        <engine quant="4" unit="cylinders"/>
+        <curbWeight quant="925" unit="kg"/>
         <wheelbase quant="2220" unit="mm"/>
         <topSpeed quant="95" unit="km/hr"/>
-        <suspension type="front"></suspension>
-        <suspension type="rear"></suspension>
+        <suspension type="front">leaf rigid</suspension>
+        <suspension type="rear">leaf rigid</suspension>
+        <topSpeed quant="95" unit="km/hr"/>
     <image
         target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/1317184254590094239.jpg"/>
         <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_1000_sedan_fuji.html"/>

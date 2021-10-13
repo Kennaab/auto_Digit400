@@ -4,18 +4,22 @@
     <entry type="car">
         <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
         <meaning>
-            <term>Datsun</term>
+            <term>Datson</term>
             <definition>sonofDat</definition>
         </meaning>
         <name>Datsun 16 Coupe</name>
         <built when="1937"/>
         <bodyStyle>sedan</bodyStyle>
-        <dimensions length="3129" width="1199" height="2005" unit="mm"/>
+        <tread type="front" quant="1038" unit="mm"/>
+        <tread type="rear" quant="1049" unit="mm"/>
+        <dimensions length="3129" width="1199"  unit="mm"/>
         <enginePower quant="12" unit="kW"/>
+        <engine quant="4" unit="cylinders"/>
         <engineRPM>3600</engineRPM>
         <wheelbase quant="2005" unit="mm"/>
-        <image target="???"></image>
-        <source target="???"></source>
+        <image
+            target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/HIGH/278_datsun_16_coupe.jpg"/>
+        <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_16_coupe.html"/>
     </entry>
 </xml>
 

@@ -4,19 +4,21 @@
     <entry type="car">
         <origin when="1911">Kwaishinsha Jidosha Kojo</origin>
         <meaning>
-            <term>Datsun</term>
+            <term>Datson</term>
             <definition>sonofDat</definition>
         </meaning>
         <name>Datsun Fire Engine</name>
-        <!-- F is for FIRE-->
         <built when="1950"/>
-        <bodyStyle>commercial</bodyStyle>
-        <dimensions length="3020" width="1200" height="2005" unit="mm"/>
+        <bodyStyle>commerical vehicle/special spec car</bodyStyle>
+        <tread type="front" quant="1038" unit="mm"/>
+        <tread type="rear" quant="1049" unit="mm"/>
+        <dimensions length="3020" width="1200" unit="mm"/>
         <enginePower quant="12" unit="kW"/>
+        <engine quant="4" unit="cylinders"/>
         <engineRPM>3600</engineRPM>
         <wheelbase quant="2005" unit="mm"/>
-        <image target="???"></image>
-        <source target="???"></source>
+        <image
+            target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/HIGH/350_datsun_fire_engine.jpg"/>
+        <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_fire_engine.html"/>
     </entry>
 </xml>
-
