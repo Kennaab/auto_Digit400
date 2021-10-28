@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <!--ebb: Make sure you have the DOCTYPE line and the @xmlns attribute in place after you download a fresh copy. -->
+    <head>
+        <title>Table of Years with Cars Manufactured</title>
+    </head>
+    <body>
+        <h1>Table of Years with Cars Manufactured</h1>
+        <label for="year">Choose the year!</label>
+        <input id="year" list="nissan-years"/>
+        <datalist id="nissan-years">
+            <option id="nissan_y1933" value="1933"/>
+            <option id="nissan_y1935" value="1935"/>
+            <option id="nissan_y1936" value="1936"/>
+            <option id="nissan_y1937" value="1937"/>
+            <option id="nissan_y1938" value="1938"/>
+            <option id="nissan_y1948" value="1948"/>
+            <option id="nissan_y1950" value="1950"/>
+            <option id="nissan_y1952" value="1952"/>
+            <option id="nissan_y1953" value="1953"/>
+            <option id="nissan_y1956" value="1956"/>
+            <option id="nissan_y1958" value="1958"/>
+            <option id="nissan_y1959" value="1959"/>
+            <option id="nissan_y1960" value="1960"/>
+            <option id="nissan_y1961" value="1961"/>
+            <option id="nissan_y1962" value="1962"/>
+            <option id="nissan_y1963" value="1963"/>
+            <option id="nissan_y1964" value="1964"/>
+            <option id="nissan_y1965" value="1965"/>
+            <option id="nissan_y1966" value="1966"/>
+            <option id="nissan_y1967" value="1967"/>
+            <option id="nissan_y1968" value="1968"/>
+        </datalist>
+        <label for="car">Choose a car</label>
+        <input id="car" list="nissan-cars"/>
+        <datalist id="nissan-cars">
+            <option id="car_datsun17-sedan" value="datsun17-sedan"/>
+            <option id="car_datsun16-roadster" value="datsun16-roadster"/>
+            <option id="car_datsun16-coupe" value="datsun16-coupe"/>
+            <option id="car_datsun15-phaeton" value="datsun15-phaeton"/>
+            <option id="car_datsun14-pickup" value="datsun14-pickup"/>
+            <option id="car_datsun12-Phaeton" value="datsun12-Phaeton"/>
+            <option id="car_Datsun14-roadster" value="Datsun14-roadster"/>
+            <option id="car_datsun38-sedan" value="datsun38-sedan"/>
+            <option id="car_datsun17T-pickup" value="datsun17T-pickup"/>
+            <option id="car_datsun35-pickup" value="datsun35-pickup"/>
+            <option id="car_datsun68-sedan" value="datsun68-sedan"/>
+            <option id="car_datsun67-sunnyd" value="datsun67-sunnyd"/>
+            <option id="car_datsun67-bluebird1300og" value="datsun67-bluebird1300og"/>
+            <option id="car_datsun67-bluebird1300" value="datsun67-bluebird1300"/>
+            <option id="car_datsun62-bluebird1200d" value="datsun62-bluebird1200d"/>
+            <option id="car_datsun64-pickup1200d" value="datsun64-pickup1200d"/>
+            <option id="car_datsun66-bluebird1300ss" value="datsun66-bluebird1300ss"/>
+            <option id="car_datsun66-cablight" value="datsun66-cablight"/>
+            <option id="car_datsun66-sunny1000d" value="datsun66-sunny1000d"/>
+            <option id="car_datsun66-van" value="datsun66-van"/>
+            <option id="car_datsun67-2000sports" value="datsun67-2000sports"/>
+            <option id="car_datsun67-bluebird" value="datsun67-bluebird"/>
+            <option id="car_datsun63-bluebird1200fd" value="datsun63-bluebird1200fd"/>
+            <option id="car_datsun63-fairlady1500" value="datsun63-fairlady1500"/>
+            <option id="car_datsun64-baby" value="datsun64-baby"/>
+            <option id="car_datsun64-bluebird1200d" value="datsun64-bluebird1200d"/>
+            <option id="car_datsun33-phaeton" value="datsun33-phaeton"/>
+            <option id="car_datsun35-roadster" value="datsun35-roadster"/>
+            <option id="car_datsun36-phaeton" value="datsun36-phaeton"/>
+            <option id="car_datsun36-roadster" value="datsun36-roadster"/>
+            <option id="car_datsun37-coupe" value="datsun37-coupe"/>
+            <option id="car_datsun38-17Tpickup" value="datsun38-17Tpickup"/>
+            <option id="car_datsun38-phaeton17" value="datsun38-phaeton17"/>
+            <option id="car_datsun48-truck" value="datsun48-truck"/>
+            <option id="car_datsun50-fireengine" value="datsun50-fireengine"/>
+            <option id="car_datsun52-sports" value="datsun52-sports"/>
+            <option id="car_datsun53-deluxesedan" value="datsun53-deluxesedan"/>
+            <option id="car_datsun56-sedan" value="datsun56-sedan"/>
+            <option id="car_datsun58-pickup" value="datsun58-pickup"/>
+            <option id="car_datsun58-sedanf" value="datsun58-sedanf"/>
+            <option id="car_datsun58-sedansa" value="datsun58-sedansa"/>
+            <option id="car_datsun58-sedanusa" value="datsun58-sedanusa"/>
+            <option id="car_datsun59-sedan" value="datsun59-sedan"/>
+            <option id="car_datsun60-bluebird1200d" value="datsun60-bluebird1200d"/>
+            <option id="car_datsun61-fairlady" value="datsun61-fairlady"/>
+        </datalist>
+        <table id="y1933">
+            <tr>
+                <th class="year">Year: 1933</th>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Car Name</th>
+                            <th>Dimensions</th>
+                            <th>Engine Info</th>
+                            <th>Engine Power</th>
+                        </tr>
+                        <tr id="datsun12-Phaeton">
+                            <td>Datsun 12 Phaeton</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 2710mm</li>
+                                    <li>Width: 1175mm</li>
+                                    <li>Height: mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 9kW</td>
+                        </tr>
+                        <tr id="datsun33-phaeton">
+                            <td>Datsun 12 Phaeton</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 2710mm</li>
+                                    <li>Width: 1175mm</li>
+                                    <li>Height: mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: 4-cylinders</td>
+                            <td>Engine Power 9kW</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table id="y1935">
+            <tr>
+                <th class="year">Year: 1935</th>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Car Name</th>
+                            <th>Dimensions</th>
+                            <th>Engine Info</th>
+                            <th>Engine Power</th>
+                        </tr>
+                        <tr id="datsun14-pickup">
+                            <td>Datsun 14 Pickup</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 2790mm</li>
+                                    <li>Width: 1190mm</li>
+                                    <li>Height: mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 11kW</td>
+                        </tr>
+                        <tr id="Datsun14-roadster">
+                            <td>Datsun 14 Roadster</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 2800mm</li>
+                                    <li>Width: 1200mm</li>
+                                    <li>Height: mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 11kW</td>
+                        </tr>
+                        <tr id="datsun35-pickup">
+                            <td>Datsun 14 Pickup</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 2790mm</li>
+                                    <li>Width: 1190mm</li>
+                                    <li>Height: mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: 4-cylinders</td>
+                            <td>Engine Power 11kW</td>
+                        </tr>
+                        <tr id="datsun35-roadster">
+                            <td>Datsun 14 Roadster</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 2800mm</li>
+                                    <li>Width: 1200mm</li>
+                                    <li>Height: mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: 4-cylinders</td>
+                            <td>Engine Power 11kW</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table id="y1936">
+            <tr>
+                <th class="year">Year: 1936</th>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Car Name</th>
+                            <th>Dimensions</th>
+                            <th>Engine Info</th>
+                            <th>Engine Power</th>
+                        </tr>
+                        <tr id="datsun15-phaeton">
+                            <td>Datsun 15 Phaeton</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3187mm</li>
+                                    <li>Width: 1190mm</li>
+                                    <li>Height: mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 12kW</td>
+                        </tr>
+                        <tr id="datsun36-phaeton">
+                            <td>Datsun 15 Phaeton</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3187mm</li>
+                                    <li>Width: 1190mm</li>
+                                    <li>Height: 2005mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: 4 4-cylinders cylinders</td>
+                            <td>Engine Power 12kW</td>
+                        </tr>
+                        <tr id="datsun36-roadster">
+                            <td>Datsun 16 Roadster</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 2790mm</li>
+                                    <li>Width: 1190mm</li>
+                                    <li>Height: 2005mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: 4-cylinders</td>
+                            <td>Engine Power 12kW</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table id="y1937">
+            <tr>
+                <th class="year">Year: 1937</th>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Car Name</th>
+                            <th>Dimensions</th>
+                            <th>Engine Info</th>
+                            <th>Engine Power</th>
+                        </tr>
+                        <tr id="datsun16-roadster">
+                            <td>Datsun 16 Roadster</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 2790mm</li>
+                                    <li>Width: 1190mm</li>
+                                    <li>Height: mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 12kW</td>
+                        </tr>
+                        <tr id="datsun16-coupe">
+                            <td>Datsun 16 Coupe</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3129mm</li>
+                                    <li>Width: 1199mm</li>
+                                    <li>Height: mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 12kW</td>
+                        </tr>
+                        <tr id="datsun37-coupe">
+                            <td>Datsun 16 Coupe</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3129mm</li>
+                                    <li>Width: 1199mm</li>
+                                    <li>Height: mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: 4-cylinders</td>
+                            <td>Engine Power 12kW</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table id="y1938">
+            <tr>
+                <th class="year">Year: 1938</th>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Car Name</th>
+                            <th>Dimensions</th>
+                            <th>Engine Info</th>
+                            <th>Engine Power</th>
+                        </tr>
+                        <tr id="datsun17-sedan">
+                            <td>Datsun 17 Sedan</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3187mm</li>
+                                    <li>Width: 1190mm</li>
+                                    <li>Height: mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 12kW</td>
+                        </tr>
+                        <tr id="datsun38-sedan">
+                            <td>Datsun 17 Sedan</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3187mm</li>
+                                    <li>Width: 1190mm</li>
+                                    <li>Height: 2005mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: 4-cylinders</td>
+                            <td>Engine Power 12kW</td>
+                        </tr>
+                        <tr id="datsun17T-pickup">
+                            <td>Datsun 17T Pickup</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3020mm</li>
+                                    <li>Width: 1197mm</li>
+                                    <li>Height: mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 12kW</td>
+                        </tr>
+                        <tr id="datsun38-17Tpickup">
+                            <td>Datsun 17T Pickup</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3020mm</li>
+                                    <li>Width: 1197mm</li>
+                                    <li>Height: mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: 4-cylinders</td>
+                            <td>Engine Power 12kW</td>
+                        </tr>
+                        <tr id="datsun38-phaeton17">
+                            <td>Datsun 17T Phaeton</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3129mm</li>
+                                    <li>Width: 1199mm</li>
+                                    <li>Height: mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: 4-cylinders</td>
+                            <td>Engine Power 12kW</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table id="y1948">
+            <tr>
+                <th class="year">Year: 1948</th>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Car Name</th>
+                            <th>Dimensions</th>
+                            <th>Engine Info</th>
+                            <th>Engine Power</th>
+                        </tr>
+                        <tr id="datsun48-truck">
+                            <td>Datsun Truck</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3147mm</li>
+                                    <li>Width: 1458mm</li>
+                                    <li>Height: 1550mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: 4-cylinders</td>
+                            <td>Engine Power 11kW</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table id="y1950">
+            <tr>
+                <th class="year">Year: 1950</th>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Car Name</th>
+                            <th>Dimensions</th>
+                            <th>Engine Info</th>
+                            <th>Engine Power</th>
+                        </tr>
+                        <tr id="datsun50-fireengine">
+                            <td>Datsun Fire Engine</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3020mm</li>
+                                    <li>Width: 1200mm</li>
+                                    <li>Height: mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: 4-cylinders</td>
+                            <td>Engine Power 12kW</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table id="y1952">
+            <tr>
+                <th class="year">Year: 1952</th>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Car Name</th>
+                            <th>Dimensions</th>
+                            <th>Engine Info</th>
+                            <th>Engine Power</th>
+                        </tr>
+                        <tr id="datsun52-sports">
+                            <td>Datsun Sports</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3510mm</li>
+                                    <li>Width: 1360mm</li>
+                                    <li>Height: 1450mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: 4-cylinders</td>
+                            <td>Engine Power 15kW</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table id="y1953">
+            <tr>
+                <th class="year">Year: 1953</th>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Car Name</th>
+                            <th>Dimensions</th>
+                            <th>Engine Info</th>
+                            <th>Engine Power</th>
+                        </tr>
+                        <tr id="datsun53-deluxesedan">
+                            <td>Datsun Deluxe Sedan</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3805mm</li>
+                                    <li>Width: 1480mm</li>
+                                    <li>Height: 1560mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: 4-cylinders</td>
+                            <td>Engine Power 18kW</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table id="y1956">
+            <tr>
+                <th class="year">Year: 1956</th>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Car Name</th>
+                            <th>Dimensions</th>
+                            <th>Engine Info</th>
+                            <th>Engine Power</th>
+                        </tr>
+                        <tr id="datsun56-sedan">
+                            <td>Datsun Sedan</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3860mm</li>
+                                    <li>Width: 1466mm</li>
+                                    <li>Height: 1540mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 24ps</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table id="y1958">
+            <tr>
+                <th class="year">Year: 1958</th>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Car Name</th>
+                            <th>Dimensions</th>
+                            <th>Engine Info</th>
+                            <th>Engine Power</th>
+                        </tr>
+                        <tr id="datsun58-pickup">
+                            <td>Datsun Pickup</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3860mm</li>
+                                    <li>Width: 1466mm</li>
+                                    <li>Height: 1535mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: 4-cylinders</td>
+                            <td>Engine Power 25kW</td>
+                        </tr>
+                        <tr id="datsun58-sedanf">
+                            <td>Datsun 1000 Sedan "Fuji"</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3860mm</li>
+                                    <li>Width: 1466mm</li>
+                                    <li>Height: 1535mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: 4-cylinders</td>
+                            <td>Engine Power 25kW</td>
+                        </tr>
+                        <tr id="datsun58-sedansa">
+                            <td>Datsun 1000 Sedan "Sakura"</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3860mm</li>
+                                    <li>Width: 1466mm</li>
+                                    <li>Height: 1535mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: 4-cylinders</td>
+                            <td>Engine Power 25kW</td>
+                        </tr>
+                        <tr id="datsun58-sedanusa">
+                            <td>Datsun 1000 Sedan (U.S. spec)</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3880mm</li>
+                                    <li>Width: 1466mm</li>
+                                    <li>Height: 1500mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: 4-cylinders</td>
+                            <td>Engine Power 27kW</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table id="y1959">
+            <tr>
+                <th class="year">Year: 1959</th>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Car Name</th>
+                            <th>Dimensions</th>
+                            <th>Engine Info</th>
+                            <th>Engine Power</th>
+                        </tr>
+                        <tr id="datsun59-sedan">
+                            <td>Datsun 1000 Sedan</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3880mm</li>
+                                    <li>Width: 1466mm</li>
+                                    <li>Height: 1535mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 25kW</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table id="y1960">
+            <tr>
+                <th class="year">Year: 1960</th>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Car Name</th>
+                            <th>Dimensions</th>
+                            <th>Engine Info</th>
+                            <th>Engine Power</th>
+                        </tr>
+                        <tr id="datsun60-bluebird1200d">
+                            <td>Datsun Bluebird 1200 Deluxe</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3910mm</li>
+                                    <li>Width: 1496mm</li>
+                                    <li>Height: 1475mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 40kW</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table id="y1961">
+            <tr>
+                <th class="year">Year: 1961</th>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Car Name</th>
+                            <th>Dimensions</th>
+                            <th>Engine Info</th>
+                            <th>Engine Power</th>
+                        </tr>
+                        <tr id="datsun61-fairlady">
+                            <td>Datsun Fairlady</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 4025mm</li>
+                                    <li>Width: 1475mm</li>
+                                    <li>Height: 1380mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 40kW</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table id="y1962">
+            <tr>
+                <th class="year">Year: 1962</th>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Car Name</th>
+                            <th>Dimensions</th>
+                            <th>Engine Info</th>
+                            <th>Engine Power</th>
+                        </tr>
+                        <tr id="datsun62-bluebird1200d">
+                            <td>Datsun Bluebird 1200 Deluxe</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3915mm</li>
+                                    <li>Width: 1496mm</li>
+                                    <li>Height: 1470mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 40kW</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table id="y1963">
+            <tr>
+                <th class="year">Year: 1963</th>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Car Name</th>
+                            <th>Dimensions</th>
+                            <th>Engine Info</th>
+                            <th>Engine Power</th>
+                        </tr>
+                        <tr id="datsun63-bluebird1200fd">
+                            <td>Datsun Bluebird 1200 Fancy Deluxe</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3915mm</li>
+                                    <li>Width: 1496mm</li>
+                                    <li>Height: 1470mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 40.4kW</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table id="y1964">
+            <tr>
+                <th class="year">Year: 1964</th>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Car Name</th>
+                            <th>Dimensions</th>
+                            <th>Engine Info</th>
+                            <th>Engine Power</th>
+                        </tr>
+                        <tr id="datsun64-pickup1200d">
+                            <td>Datsun Pickup 1200 Deluxe</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 4125mm</li>
+                                    <li>Width: 1515mm</li>
+                                    <li>Height: 1610mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 40kW</td>
+                        </tr>
+                        <tr id="datsun64-baby">
+                            <td>Datsun Baby</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 2960mm</li>
+                                    <li>Width: 1420mm</li>
+                                    <li>Height: 1245mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 5.5kW</td>
+                        </tr>
+                        <tr id="datsun64-bluebird1200d">
+                            <td>Datsun Bluebird 1200 Deluxe</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3995mm</li>
+                                    <li>Width: 1490mm</li>
+                                    <li>Height: 1440mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 40kW</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table id="y1965">
+            <tr>
+                <th class="year">Year: 1965</th>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Car Name</th>
+                            <th>Dimensions</th>
+                            <th>Engine Info</th>
+                            <th>Engine Power</th>
+                        </tr>
+                        <tr id="datsun63-fairlady1500">
+                            <td>Datsun Fairlady 1500</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3910mm</li>
+                                    <li>Width: 1495mm</li>
+                                    <li>Height: 1305mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 59kW</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table id="y1966">
+            <tr>
+                <th class="year">Year: 1966</th>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Car Name</th>
+                            <th>Dimensions</th>
+                            <th>Engine Info</th>
+                            <th>Engine Power</th>
+                        </tr>
+                        <tr id="datsun66-bluebird1300ss">
+                            <td>Datsun Bluebird 1300SS</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 4000mm</li>
+                                    <li>Width: 1490mm</li>
+                                    <li>Height: 1470mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 5.5kW</td>
+                        </tr>
+                        <tr id="datsun66-cablight">
+                            <td>Datsun Cablight 1150</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3840mm</li>
+                                    <li>Width: 1608mm</li>
+                                    <li>Height: 1735mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 5.5kW</td>
+                        </tr>
+                        <tr id="datsun66-sunny1000d">
+                            <td>Datsun Sunny 1000 Deluxe</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3820mm</li>
+                                    <li>Width: 1445mm</li>
+                                    <li>Height: 1345mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 5.5kW</td>
+                        </tr>
+                        <tr id="datsun66-van">
+                            <td>Datsun 1300 Van</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 4300mm</li>
+                                    <li>Width: 1570mm</li>
+                                    <li>Height: 1525mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 46kW</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table id="y1967">
+            <tr>
+                <th class="year">Year: 1967</th>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Car Name</th>
+                            <th>Dimensions</th>
+                            <th>Engine Info</th>
+                            <th>Engine Power</th>
+                        </tr>
+                        <tr id="datsun67-sunnyd">
+                            <td>Datsun Sunny 1000 4-door Deluxe</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3820mm</li>
+                                    <li>Width: 1445mm</li>
+                                    <li>Height: 1345mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 41kW</td>
+                        </tr>
+                        <tr id="datsun67-bluebird1300og">
+                            <td>Datsun Bluebird 1300 Estate Wagon</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3995mm</li>
+                                    <li>Width: 1490mm</li>
+                                    <li>Height: 1430mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 46kW</td>
+                        </tr>
+                        <tr id="datsun67-bluebird1300">
+                            <td>Datsun Bluebird 1300 Estate Wagon</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3995mm</li>
+                                    <li>Width: 1490mm</li>
+                                    <li>Height: 1430mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 46kW</td>
+                        </tr>
+                        <tr id="datsun67-2000sports">
+                            <td>Datsun 2000 Sports</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3910mm</li>
+                                    <li>Width: 1495mm</li>
+                                    <li>Height: 1300mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 107kW</td>
+                        </tr>
+                        <tr id="datsun67-bluebird">
+                            <td>Datsun Bluebird Estate Wagon</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 4145mm</li>
+                                    <li>Width: 1560mm</li>
+                                    <li>Height: 1435mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 53kW</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table id="y1968">
+            <tr>
+                <th class="year">Year: 1968</th>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Car Name</th>
+                            <th>Dimensions</th>
+                            <th>Engine Info</th>
+                            <th>Engine Power</th>
+                        </tr>
+                        <tr id="datsun68-sedan">
+                            <td>Datsun Sunny 1000 Van Deluxe</td>
+                            <td>
+                                <ul>
+                                    <li>Length: 3800mm</li>
+                                    <li>Width: 1445mm</li>
+                                    <li>Height: 1385mm</li>
+                                </ul>
+                            </td>
+                            <td>Engine: -</td>
+                            <td>Engine Power 41kW</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
