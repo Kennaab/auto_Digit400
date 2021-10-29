@@ -1,5 +1,5 @@
 h1{ 
-border: 5px solid black;
+border: 4px solid black;
 font-family: courier, fixed, monospace;
     
 }
@@ -10,6 +10,6 @@ border: 5px solid black; background-color: #8cb3d9;
 }
 
 tr {
-    border: 3px solid black; background-color: #c6d9eb;
+    border: 3px solid black; background-color: #e9f0f7;
 }
 
