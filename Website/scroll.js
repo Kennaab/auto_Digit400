@@ -16,7 +16,6 @@ function onInput(e) {
         break; }
         }
     }
-}
 function scrollToTop(){
     var scroll = window.scrollTo(0,0);
 }
