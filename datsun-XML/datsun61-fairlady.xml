@@ -12,13 +12,14 @@
         <bodyStyle>sports</bodyStyle>
         <dimensions length="4025" width="1475" height="1380" unit="mm"/>
         <enginePower quant="40" unit="kW"/>
+        <engine quant="4" unit="cylinders"/>
         <engineRPM>4800</engineRPM>
         <curbWeight quant="890" unit="kg"/>
         <wheelbase quant="2220" unit="mm"/>
         <suspension type="front">torsion bar (independent)</suspension>
         <suspension type="rear">parallel leaf</suspension>
-        <image target="???"></image>
-        <source target="???"></source>
+        <image target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/274/high.jpg"></image>
+        <source target="https://www.nissan-global.com/EN/HERITAGE/274_datsun_fairlady.html"></source>
     </entry>
 </xml>
 

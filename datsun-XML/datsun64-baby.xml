@@ -15,6 +15,7 @@
         <dimensions length="2960" width="1420" height="1245" unit="mm"/>
         <enginePower quant="5.5" unit="kW"/>
         <engineRPM>3200</engineRPM>
+        <engine quant="2" unit="cylinders"/>
         <curbWeight quant="430" unit="kg"/>
         <wheelbase quant="1670" unit="mm"/>
         <suspension type="front">double wishbone</suspension>
