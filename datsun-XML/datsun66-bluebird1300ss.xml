@@ -16,7 +16,7 @@
         <tread type="rear" quant="1198" unit="mm"/>
         <dimensions length="4000" width="1490" height="1470" unit="mm"/>
         <enginePower quant="5.5" unit="kW"/>
-        <transmission quant="4" unit="cylinders"/>
+        <engine quant="4" unit="cylinders"/>
         <engineRPM>6000</engineRPM>
         <curbWeight quant="900" unit="kg"/>
         <wheelbase quant="2380" unit="mm"/>
