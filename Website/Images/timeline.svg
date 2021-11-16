@@ -1,0 +1,158 @@
+<svg width="2000" height="4000">
+    <g transform="translate(30,30)">
+        <line x1="100" y1="0" x2="100" y2="1050" stroke="green" stroke-width="2"/>
+<g class="year">
+            <text x="120" y="570" width="10" height="10" fill="blue">1952</text>
+            <rect x="95" y="570" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="150" width="10" height="10" fill="blue">1938</text>
+            <rect x="95" y="150" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="60" width="10" height="10" fill="blue">1935</text>
+            <rect x="95" y="60" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="1050" width="10" height="10" fill="blue">1968</text>
+            <rect x="95" y="1050" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="1020" width="10" height="10" fill="blue">1967</text>
+            <rect x="95" y="1020" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="1020" width="10" height="10" fill="blue">1967</text>
+            <rect x="95" y="1020" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="1020" width="10" height="10" fill="blue">1967</text>
+            <rect x="95" y="1020" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="870" width="10" height="10" fill="blue">1962</text>
+            <rect x="95" y="870" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="930" width="10" height="10" fill="blue">1964</text>
+            <rect x="95" y="930" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="990" width="10" height="10" fill="blue">1966</text>
+            <rect x="95" y="990" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="990" width="10" height="10" fill="blue">1966</text>
+            <rect x="95" y="990" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="990" width="10" height="10" fill="blue">1966</text>
+            <rect x="95" y="990" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="990" width="10" height="10" fill="blue">1966</text>
+            <rect x="95" y="990" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="1020" width="10" height="10" fill="blue">1967</text>
+            <rect x="95" y="1020" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="1020" width="10" height="10" fill="blue">1967</text>
+            <rect x="95" y="1020" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="900" width="10" height="10" fill="blue">1963</text>
+            <rect x="95" y="900" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="960" width="10" height="10" fill="blue">1965</text>
+            <rect x="95" y="960" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="930" width="10" height="10" fill="blue">1964</text>
+            <rect x="95" y="930" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="930" width="10" height="10" fill="blue">1964</text>
+            <rect x="95" y="930" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="0" width="10" height="10" fill="blue">1933</text>
+            <rect x="95" y="0" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="60" width="10" height="10" fill="blue">1935</text>
+            <rect x="95" y="60" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="90" width="10" height="10" fill="blue">1936</text>
+            <rect x="95" y="90" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="90" width="10" height="10" fill="blue">1936</text>
+            <rect x="95" y="90" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="120" width="10" height="10" fill="blue">1937</text>
+            <rect x="95" y="120" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="150" width="10" height="10" fill="blue">1938</text>
+            <rect x="95" y="150" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="150" width="10" height="10" fill="blue">1938</text>
+            <rect x="95" y="150" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="450" width="10" height="10" fill="blue">1948</text>
+            <rect x="95" y="450" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="510" width="10" height="10" fill="blue">1950</text>
+            <rect x="95" y="510" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="570" width="10" height="10" fill="blue">1952</text>
+            <rect x="95" y="570" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="600" width="10" height="10" fill="blue">1953</text>
+            <rect x="95" y="600" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="690" width="10" height="10" fill="blue">1956</text>
+            <rect x="95" y="690" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="750" width="10" height="10" fill="blue">1958</text>
+            <rect x="95" y="750" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="750" width="10" height="10" fill="blue">1958</text>
+            <rect x="95" y="750" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="750" width="10" height="10" fill="blue">1958</text>
+            <rect x="95" y="750" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="750" width="10" height="10" fill="blue">1958</text>
+            <rect x="95" y="750" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="780" width="10" height="10" fill="blue">1959</text>
+            <rect x="95" y="780" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="810" width="10" height="10" fill="blue">1960</text>
+            <rect x="95" y="810" width="10" height="3" fill="purple"/>
+        </g>
+        <g class="year">
+            <text x="120" y="840" width="10" height="10" fill="blue">1961</text>
+            <rect x="95" y="840" width="10" height="3" fill="purple"/>
+        </g>
+        <text x="0" y="-3" width="10" height="10" fill="blue">The first Datsun!</text>
+    </g>
+</svg>
