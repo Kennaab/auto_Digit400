@@ -3,7 +3,7 @@ declare variable $autocoll := collection('/db/auto/')/*;
 declare variable $built := $autocoll//built;
 declare variable $year := $built/@when ! string() =>  distinct-values() => sort();
 declare variable $carDistinctNames := $autocoll//name ! base-uri(.) ! tokenize(., '/')[last()] ! substring-before(., '.xml');
-declare variable $ThisFileContent :=
+declare variable $thisFileContent :=
 <html> 
     <head>
         <title>Table of Years with Cars Manufactured</title>
@@ -45,6 +45,7 @@ return
                    <th>Engine Power</th>
                    <th>Curb Weight</th>
                    <th>Top Speed</th>
+                    <th>Body Style</th>
                </tr>
            {
                for $n in $names
@@ -62,6 +63,7 @@ return
                let $curbWeight-u := $n/following::curbWeight/@unit ! string()
                let $topSpeed-q := $n/following::topSpeed/@quant ! data()
                let $topSpeed-u := $n/following::topSpeed/@unit ! string()
+               let $bodyStyle := $n/following::bodyStyle ! string()
                
 
            return
@@ -73,10 +75,11 @@ return
                       <li>Height: {$dimension-h} {$dimension-u}</li>
                    </ul>
                </td>
-               <td>Engine: {$engine-quant}-{$engine-quant-u}</td>
-               <td>Engine Power {$enginePower} {$enginePower-u}</td>
-               <td>Curb Weight {$curbWeight-q} {$curbWeight-u}</td>
-               <td>Top Speed {$topSpeed-q} {$topSpeed-u}</td>
+               <td>{$engine-quant}-{$engine-quant-u}</td>
+               <td>{$enginePower} {$enginePower-u}</td>
+               <td>{$curbWeight-q} {$curbWeight-u}</td>
+               <td>{$topSpeed-q} {$topSpeed-u}</td>
+               <td> {$bodyStyle}</td>
                </tr>
                
            }
@@ -90,6 +93,6 @@ return
 </html> ;
 
 let $filename := "cartables.html"
-let $doc-db-uri := xmldb:store("/db/auto-queries", $filename, $ThisFileContent, "html")
+let $doc-db-uri := xmldb:store("/db/auto-queries", $filename, $thisFileContent, "html")
 return $doc-db-uri
 (:  :Output at http://newtfire.org:8338/exist/rest/db/auto-queries/cartables.html :)

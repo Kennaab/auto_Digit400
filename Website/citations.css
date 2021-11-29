@@ -30,6 +30,11 @@ font-family: arial, helvetica, sans-serif;
   background-color: #000000;
   color: grey;
   }
-
+a:link {
+  color: white;
+}
+a:hover{
+    color: red
+}
 
   

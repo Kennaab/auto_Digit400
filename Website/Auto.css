@@ -64,8 +64,13 @@ font-family: arial, helvetica, sans-serif;
  span.subcategory{
     color:#54939e
 }
- /* FOR YOSHISUKE-AIKAWA PAGE */
- 
+ /* FOR LINKS */
+ a:link {
+  color: white;
+}
+a:hover{
+    color: red
+}
  /* For INDEX.HTML Page */
  datsun.background {}
  
