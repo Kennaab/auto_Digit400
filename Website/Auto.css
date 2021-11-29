@@ -49,6 +49,13 @@ font-family: arial, helvetica, sans-serif;
      border: 3px solid white;
      outline: 3px solid black;
  }
+ 
+ h4 {
+     font-size: 20px;
+     text-align:center;
+     -webkit-text-stroke: 1px LightBlue;
+     font-family: courier, fixed, monospace;
+ }
  /* FOR ABOUT PAGE */
  
  /* FOR EVOLUTION PAGE */
