@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>    
+    <body>
+        <div
+            id="myChart" style="width:100%; max-width:500px; height:300px;">
+        </div>
+        
+        <script>
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+function drawChart() {
+var data = google.visualization.arrayToDataTable([
+  ['Contry', 'Mhl'],
+  ['5.5 kW', 4],
+  ['9 kW', 1],
+  ['ll kW', 3],
+  ['12 kW', 7],
+  ['15 kW', 1],
+  ['18 kW', 1],
+  ['25 kW', 4],
+  ['27 kW', 1],
+  ['40 kW', 5],
+  ['41 kW', 2],
+  ['46 kW', 3],
+  ['53 kW', 1],
+  ['107 kW', 1],
+   
+  
+]);
+
+var options = {
+  title:'Datsun Engine Power in kW',
+  is3D:true
+};
+
+var chart = new google.visualization.PieChart(document.getElementById('myChart'));
+  chart.draw(data, options);
+}
+</script>
+        
+    </body>
+</html>
