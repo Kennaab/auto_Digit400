@@ -1,3 +1,17 @@
+#scrollToTop {
+    position:fixed;
+    right:10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #8cb3d9;
+    color: white;
+    outline: black;
+    cursor: pointer;
+    border: none;
+}
+
 h1{ 
 border: 4px solid black;
 font-family: courier, fixed, monospace;
