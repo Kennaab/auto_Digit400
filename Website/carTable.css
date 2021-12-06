@@ -11,6 +11,10 @@ div.svg{
     position: sticky;
 }
 
+div.table{
+    overflow: auto;
+}
+
 #scrollToTop {
     position:fixed;
     right:10px;
