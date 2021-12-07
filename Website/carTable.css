@@ -1,18 +1,38 @@
+body {
+
+}
+
 div.container{
+ 
     display: grid;
     grid-auto-flow:column;
     grid-template-columns: 20% 80%;
     grid-column-gap:50px;
-    align-items: start;
+  
 }
 
 div.svg{
-    align-self: start;
-    position: sticky;
+   
+    display:grid;
+   grid-auto-flow:row;
+   grid-template-rows:15vw auto;
+   
+}
+
+div.svg p {
+width:60%;
+padding:1em;
+line-height:1.4em;
+
+}
+svg { 
+position:sticky;
+top: 0px;
+height:70vh;
 }
 
 div.table{
-    overflow: auto;
+ overflow:scroll;
 }
 
 #scrollToTop {
