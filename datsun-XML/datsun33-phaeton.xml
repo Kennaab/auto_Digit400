@@ -15,8 +15,6 @@
         <wheelbase quant="1918" unit="mm"/>
         <enginePower quant="9" unit="kW"/>
         <engine quant="4" unit="cylinders"/>
-        <wheelbase quant="1918" unit="mm"/>
-        <enginePower quant="9" unit="kW"/>
         <image target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/1317195088275065180.jpg"/>
         <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_12_phaeton.html"/>
     </entry>

@@ -16,9 +16,10 @@ font-family: arial, helvetica, sans-serif;
   float: left;
   color: #000000;
   text-align: center;
-  padding: 14px 16px;
+  padding: 12px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
+  -webkit-text-stroke: 0.15px white;
 }
 
 /* Change the color of links on hover */
@@ -33,9 +34,43 @@ font-family: arial, helvetica, sans-serif;
   color: white;
 }
  /* FOR INFO.HTML PAGE */
+ h1 {
+ font-size: 40px;
+     text-align: center;
+     -webkit-text-stroke: 1px black;
+     font-family: courier, fixed, monospace;
+ }
+ .center {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ img {
+     border: 3px solid white;
+     outline: 3px solid black;
+ }
  
+ h4 {
+     font-size: 20px;
+     text-align:center;
+     -webkit-text-stroke: 1px LightBlue;
+     font-family: courier, fixed, monospace;
+ }
  /* FOR ABOUT PAGE */
  
  /* FOR EVOLUTION PAGE */
+  /* Merged evolution with Evolution */
+  
+ span.subcategory{
+    color:#54939e
+}
+ /* FOR LINKS */
+ a:link {
+  color: white;
+}
+a:hover{
+    color: red
+}
+ /* For INDEX.HTML Page */
+ datsun.background {}
  
- /* FOR YOSHISUKE-AIKAWA PAGE */

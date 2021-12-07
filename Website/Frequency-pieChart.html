@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>    
+    <body>
+        <div
+            id="myChart" style="width:100%; max-width:500px; height:300px;">
+        </div>
+        
+        <script>
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+function drawChart() {
+var data = google.visualization.arrayToDataTable([
+  ['Contry', 'Mhl'],
+  ['Phaeton', 3],
+  ['Pickup', 4],
+  ['Roadster', 2],
+  ['Coupe', 1],
+  ['Truck', 1],
+  ['FireEngine', 1],
+  ['Sedan', 8],
+  ['BlueBird', 8],
+  ['Van', 1],
+  
+]);
+
+var options = {
+  title:'Datsun Car Names: 1930-1960s',
+  is3D:true
+};
+
+var chart = new google.visualization.PieChart(document.getElementById('myChart'));
+  chart.draw(data, options);
+}
+</script>
+        
+    </body>
+</html>

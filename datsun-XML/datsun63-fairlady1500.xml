@@ -9,16 +9,16 @@
         </meaning>
         <name>Datsun Fairlady 1500</name>
         <built when="1965"/>
-        <bodyStyle>sports</bodyStyle>
-        <dimensions length="3910" width="1495" height="1305" unit="mm"/>
+        <bodyStyle>Sports car / Competition</bodyStyle>
+        <dimensions length="3910" width="1495" height="1275" unit="mm"/>
         <enginePower quant="59" unit="kW"/>
+        <engine quant="4" unit="cylinders"/>
         <engineRPM>5600</engineRPM>
         <curbWeight quant="870" unit="kg"/>
-        <wheelbase quant="2220" unit="mm"/>
+        <wheelbase quant="2280" unit="mm"/>
         <image
-            target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/HIGH/350_datsun_fire_engine.jpg"/>
-        <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_fire_engine.html"/>
+            target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/030/high.jpg"/>
+        <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_fairlady_1500.html"/>
     </entry>
 </xml>
 
-<!-- not sure if this is the datsun fairlady for 1961 or 1965 ?? -->

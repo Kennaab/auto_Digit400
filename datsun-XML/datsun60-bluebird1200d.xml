@@ -12,11 +12,13 @@
         <bodyStyle>sedan</bodyStyle>
         <dimensions length="3910" width="1496" height="1475" unit="mm"/>
         <enginePower quant="40" unit="kW"/>
+        <engine quant="4" unit="cylinders"/>
         <engineRPM>4800</engineRPM>
         <curbWeight quant="900" unit="kg"/>
         <wheelbase quant="2280" unit="mm"/>
-        <image target="???"></image>
-        <source target="???"></source>
+        <topSpeed quant="120" unit="km/hr"/>
+        <image target="https://www.nissan-global.com/EN/HERITAGE/img/modelDetail/uploader/data/en/Web/1317180537046067279.jpg"></image>
+        <source target="https://www.nissan-global.com/EN/HERITAGE/datsun_bluebird_1200_dx_1960.html"></source>
     </entry>
 </xml>
 

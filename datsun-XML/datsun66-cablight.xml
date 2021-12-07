@@ -15,7 +15,7 @@
         <dimensions length="3840" width="1608" height="1735" unit="mm"/>
         <seating>2</seating>
         <enginePower quant="5.5" unit="kW"/>
-        <transmission quant="4" unit="cylinders"/>
+        <engine quant="4" unit="cylinders"/>
         <engineRPM>5000</engineRPM>
         <curbWeight quant="970" unit="kg"/>
         <wheelbase quant="2220" unit="mm"/>
